@@ -1,10 +1,60 @@
-# Virtual environments
-.venv/
-venv/
-
-# Secret keys
-.env
-
-# Python cache
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+downloads/
+.eggs/
+*.egg-info/
+*.egg
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.pytest_cache/
+.coverage
+.coverage.*
+.tox/
+.nox/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+
+# Database files
+*.sqlite3
+*.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Pip / dependency cache
+pip-wheel-metadata/
